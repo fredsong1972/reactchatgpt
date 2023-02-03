@@ -23,7 +23,7 @@ namespace ChatGptAPI.Services
                     Prompt = question,
                     Temperature = 0.7,
                     TopP = 1.0,
-                    MaxTokens = 256,
+                    MaxTokens = 2048,
                     PresencePenalty = 0,
                     FrequencyPenalty = 0
                 };
